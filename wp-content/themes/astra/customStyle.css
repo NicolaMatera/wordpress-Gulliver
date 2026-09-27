@@ -1,0 +1,445 @@
+@media (max-width: 1920px) { 
+    
+    /*INIZIO CODICE HOME, PAG ACQUISTA, PRODOTTO, NOTIZIE*/
+
+    #copertinaHome {
+        min-height: calc(100vh - 100px) !important;
+        align-items: flex-end !important;
+    }
+
+    #copertinaHome > div{
+        margin-bottom: 90px !important; 
+        margin-right: 3% !important; 
+        width: 29% !important; 
+    }
+        
+    #h1Copertina, #paragrafoCopertina, #colonneBottoniCopertina, .testiMediaTesto, #prezzoPartenzaParagrafo, #prezzoAttualeParagrafo,  .ycd-all-content-wrapper, #divBottoneAcquista, #offertaTitolo, .paragrafiFAQ{
+        width: 100% !important; 
+    }
+
+    .titoli{
+        width: 30% !important; 
+    }
+
+    .divMediaTesto, #divMediaTestoAcquista{
+        width: 61% !important; 
+        grid-template-columns: 48.5% 48.5% !important;
+        gap: 3% !important;
+    }
+
+    .divMediaTesto > div, #divMediaTestoAcquista > div, #divOfferta > div{
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+
+    #divMediaTestoAcquista > figure{
+        border: 1px solid #000000;
+    }
+
+    .divMediaTesto > figure > img, #divMediaTestoAcquista > figure > img, #divOfferta > figure > img, #immagineIstruzioni > img {
+        aspect-ratio: 1/1;
+        object-fit: cover;
+    }
+
+    #divOfferta{
+        width: 50% !important; 
+        grid-template-columns: 48.5% 48.5% !important;
+        gap: 3% !important;
+    }
+
+    #sp-testimonial-free-wrapper-3740, #sp-testimonial-free-wrapper-3858 {
+        width: 50% !important; 
+    }
+
+    #titoloNewsLetter{
+        width: 40% !important; 
+    }
+
+    #paragrafoNewsLetter,#paragrafoScaricaManuale, #paragrafoIkeaKreativ, .videoProdotto, .galleriaImmagini, .colonneFAQ{
+        width: 61% !important; 
+    }
+
+    .divModuloNewsLetter, #immagineIstruzioni{
+        width: 30% !important; 
+    }
+
+    .moduloNewsLetter > *, #moduloContatti > * {
+        margin-bottom: 30px !important;
+    }
+
+    .moduloNewsLetter > p{
+        text-align: center !important;
+    }
+
+    .wpcf7-spinner{
+        display: none !important;
+    }
+
+    #menu-item-2893{
+        margin-top: 15px !important;
+        margin-bottom: 15px !important;
+    }
+
+    #pulsanteScaricaManuale,  #divBottoneKreativ{
+        width: 9% !important;
+    }
+
+    .videoProdotto{
+        aspect-ratio: 16 / 9 !important;
+    }
+
+    .galleriaImmagini > figure > figcaption{
+        color: #ffffff !important;
+        text-shadow: none !important;
+        font-size: 16px !important;
+    }
+
+    .notizia {
+        width: 61% !important;
+    }
+
+    .navigation{
+        display: none !important;
+    }
+
+    /*FINE CODICE HOME, PAG ACQUISTA, PRODOTTO, NOTIZIE*/
+     
+    /*INIZIO CODICE PAGINA INCLUSIVITA'*/
+    
+    #blockCitazioneInclusività{
+      display: flex;
+      flex-direction: column; 
+      align-items: center;
+    }
+
+    #paragrafiCitazione{
+        width: 50% !important; 
+    }
+     
+    #blockCitazioneInclusività > cite{
+        font-size: 25px !important;
+      }
+
+    .paragrafiApproccio{
+        width: 50% !important; 
+        font-size: 17px !important;
+    }
+   
+    /*FINE CODICE PAGINA INCLUSIVITA'*/
+     
+    /*INIZIO CODICE PAGINA CONTATTI*/
+    
+    .colonneContatti{
+        width: 83% !important;
+        gap:22% !important;
+    }
+
+    .colonneInterneContatti > * {
+        width: 100% !important;
+    }
+
+    .immagineContatti > img{
+        width: 100% !important;
+        aspect-ratio: 16 / 9 !important;
+        object-fit: cover !important;
+    }
+     
+    /*FINE CODICE PAGINA CONTATTI*/	
+
+}
+
+@media screen and (max-width: 992px) {
+        
+        /*INIZIO CODICE HOME, PAG ACQUISTA, PRODOTTO, NOTIZIE*/
+      
+        #copertinaHome > div{
+            width: 46% !important;
+            margin-right:0% !important;
+            margin-left: 0% !important;
+        }
+
+        #h1Copertina, #paragrafoCopertina{
+            text-align: center !important;
+        }
+
+        #paragrafoCopertina{
+            font-size: 26px !important;
+        }
+
+        .colonnaBottoneCopertina{
+            width: 47% !important;
+        }
+
+        #colonneBottoniCopertina{
+            gap: 6% !important;
+        }
+
+        .titoli, .divModuloNewsLetter{
+            width: 46% !important; 
+        }
+
+        .divMediaTesto, #divMediaTestoAcquista{
+            width: 94% !important;
+            grid-template-columns: 48.5% 48.5% !important;
+            gap: 3% !important;
+        }
+
+        #divOfferta{
+            width: 70% !important; 
+            grid-template-columns: 48% 48% !important;
+            gap: 4% !important;
+        }
+
+        #sp-testimonial-free-wrapper-3740, #sp-testimonial-free-wrapper-3858, #titoloNewsLetter, #paragrafoNewsLetter, #paragrafoScaricaManuale, .paragrafoIkeaKreativ, .videoProdotto, .galleriaImmagini {
+            width: 70% !important;
+        }
+
+        #immagineIstruzioni{
+            width: 33% !important; 
+        }
+
+        #pulsanteScaricaManuale, #divBottoneKreativ{
+            width: 21% !important;
+        }
+
+        #prezzoPartenzaParagrafo{
+            font-size: 17px !important;
+        }
+
+        #prezzoAttualeParagrafo{
+            font-size: 18px !important;
+        }
+
+        .galleriaImmagini > figure > figcaption{
+            font-size: 15px !important;
+        }
+
+        .colonneFAQ{
+            width: 94% !important; 
+            gap: 3% !important;
+        }
+
+        .colonneInterneFAQ{
+            width: 48.5% !important;
+        }
+
+        .notizia {
+            width: 69% !important;
+        }
+
+       /*FINE CODICE HOME, PAG ACQUISTA, PRODOTTO, NOTIZIE*/
+
+     
+        /*INIZIO CODICE PAGINA INCLUSIVITA*/
+
+        #paragrafiCitazione, .paragrafiApproccio{
+            width: 70% !important; 
+            font-size: 26px !important;
+        }
+
+        #blockCitazioneInclusività > cite{
+            font-size: 21px !important;
+        }
+
+        .paragrafiApproccio{
+            font-size: 17px !important;
+        }
+
+        /*FINE CODICE PAGINA INCLUSIVITA */
+                    
+        /*INIZIO CODICE PAGINA CONTATTI*/
+        
+        .colonneContatti{
+            width: 94% !important;
+            gap: 3% !important;
+        }
+
+        .colonneInterneContatti{
+            flex-basis: 48.5% !important;
+        }
+        
+        /*FINE CODICE PAGINA CONTATTI*/
+
+}
+
+
+@media screen and (max-width: 576px) {
+ 
+    /*INIZIO CODICE HOME, PAG ACQUISTA, PRODOTTO, NOTIZIE*/
+
+    #copertinaHome {
+        min-height: calc(100vh - 90px) !important;
+    }
+
+    #copertinaHome > div{
+        width: 90% !important;
+    }
+
+    #paragrafoCopertina{
+        font-size: 22px !important;
+    }
+
+    .colonnaBottoneCopertina{
+        width: 47% !important;
+    }
+
+    #colonneBottoniCopertina{
+        gap: 6% !important;
+        width: 70% !important;
+    }
+
+    .titoli, #titoloNewsLetter, #paragrafoNewsLetter, .galleriaImmagini, .notizia{
+        width: 90% !important; 
+    }
+
+    .divMediaTesto{
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        width: 90% !important;
+    }
+
+    .divMediaTesto > figure{
+        width: 47% !important;
+    }
+            
+    .divMediaTesto > div{
+        margin-top: 30px !important;
+        width: 100% !important;    
+    }
+
+    .divMediaTesto > div > *, .notizia{
+       text-align: center !important;
+    }
+
+    #divMediaTestoMisure > figure, #divMediaTestoSicurezza > figure, #divMediaTestoInclusivita > figure{
+        order: 1 !important;
+    }
+
+    #divMediaTestoMisure > div, #divMediaTestoSicurezza > div, #divMediaTestoInclusivita > div{
+        order: 2 !important;
+    }
+
+    #divOfferta, #divMediaTestoAcquista{
+        width: 90% !important;
+        grid-template-columns: 47% 47% !important;
+        gap: 6% !important;
+    }
+
+    #prezzoPartenzaParagrafo{
+        font-size: 15px !important;
+    }
+    #prezzoAttualeParagrafo{
+        font-size: 16px !important;
+    }
+
+    #divBottoneAcquista{
+        margin-top: 15px !important;
+    }
+
+    #offertaTitolo, #prezzoAttualeParagrafo{
+        margin-bottom: 15px !important;
+    }
+
+    #sp-testimonial-free-wrapper-3740, #sp-testimonial-free-wrapper-3858, #paragrafoScaricaManuale, .paragrafoIkeaKreativ, .videoProdotto{
+        width: 90% !important;
+    }
+
+    .divModuloNewsLetter, #immagineIstruzioni{
+        width: 42% !important;
+    }
+
+    .galleriaImmagini{
+        justify-content: center !important ;
+    }
+
+    .galleriaImmagini > figure > figcaption{
+        font-size: 14px !important;
+    }
+
+    .galleriaImmagini > :nth-child(5){
+        max-width: 47% !important;
+    }
+
+    .colonneFAQ{
+        flex-direction: column !important;
+        width: 90% !important; 
+        gap: 45px !important;
+    }
+
+    .colonneInterneFAQ{
+        width: 100% !important;
+        margin-bottom: 0 !important;
+    }
+
+    #colonneFAQInferiori{
+        margin-top: 45px !important;
+    }
+
+    .paragrafiFAQ{
+        text-align: center !important;
+    }
+
+     /*FINE CODICE HOME, PAG ACQUISTA, PRODOTTO, NOTIZIE*/
+
+            
+    /*INIZIO CODICE PAGINA INCLUSIVITA'*/
+
+    #paragrafiCitazione{
+        width: 90% !important; 
+        font-size: 22px !important;
+    }
+
+    #blockCitazioneInclusività > cite{
+        font-size: 17px !important;
+    }
+
+    .paragrafiApproccio{
+        width: 90% !important; 
+        font-size: 16px !important;
+    }
+      
+    /*FINE CODICE PAGINA INCLUSIVITA'*/
+    
+    /*INIZIO CODICE PAGINA CONTATTI*/
+
+    .colonneContatti{ 
+        display: flex !important;
+        flex-direction: column !important;
+        width: 90% !important;
+    }
+
+    .colonneInterneContatti{
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        width: 100% !important;
+    }
+
+    .colonneContatti > :nth-child(2){ 
+        margin-top: 60px !important;
+    }
+
+    .colonneInterneContatti > *{
+        width: 100% !important;
+        text-align: center !important;
+    }
+
+    .colonneInterneContatti > .pulsantiContatti{
+        width: 47% !important;
+    }
+
+    .pulsantiContatti > div{
+        width: 70% !important;
+    }
+
+    .pulsantiContatti{
+        justify-content: center !important;
+    }
+
+    /*FINE CODICE PAGINA CONTATTI */
+
+}
+    
+
+    
